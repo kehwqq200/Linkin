@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+
+.su-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(160deg, midnightblue, rebeccapurple);
+}
+
+.su-card {
+  width: 100%;
+  max-width: 380px;
+  padding: 32px 26px;
+  border-radius: 20px;
+  background: white;
+  color: midnightblue;
+  box-shadow: 0 20px 40px midnightblue;
+}
+.su-card h1 { margin: 0 0 6px; font-size: 1.8rem; }
+.su-card p { margin: 0 0 24px; color: slategray; }
+
+.su-card input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 14px;
+  padding: 0 14px;
+  font-size: 1rem;
+  color: midnightblue;
+  background: ghostwhi
